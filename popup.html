@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>URL Cleaner</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<header>
+<h1>URL Cleaner</h1>
+<p class="subtitle">Remove tracking parameters before sharing</p>
+</header>
+<main>
+<label for="inputUrl">Paste a URL to clean:</label>
+<textarea id="inputUrl" placeholder="https://example.com/article?utm_source=..." rows="3"></textarea>
+<button id="cleanBtn" class="primary">Clean URL</button>
+<button id="pasteBtn" class="secondary">Paste & Clean from Clipboard</button>
+
+<section id="result" class="hidden">
+<h2>Cleaned URL</h2>
+<textarea id="outputUrl" rows="3" readonly></textarea>
+<div class="actions">
+<button id="copyBtn" class="primary">Copy</button>
+<button id="clearBtn" class="secondary">Clear</button>
+</div>
+<p id="stats" class="stats"></p>
+</section>
+</main>
+<footer>
+<p>Alt+Shift+C to clean the current page</p>
+</footer>
+<script src="lib/cleaner.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
