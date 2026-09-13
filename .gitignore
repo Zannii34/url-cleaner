@@ -7,3 +7,6 @@ uploads/*
 !uploads/.gitkeep
 .env
 .pytest_cache/
+
+*.bak
+*.bak-*
