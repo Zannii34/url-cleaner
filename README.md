@@ -1,4 +1,7 @@
-﻿# URL Cleaner
+# URL Cleaner
+
+![Chrome](https://img.shields.io/badge/chrome-extension-blue) ![Manifest](https://img.shields.io/badge/manifest-v3-green)
+
 
 A Chrome extension that strips tracking parameters from URLs before you share them.
 
